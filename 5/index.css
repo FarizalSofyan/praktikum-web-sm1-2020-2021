@@ -1,0 +1,62 @@
+body {
+    color: black;
+  #navbarSupportedContent {
+  }
+  #konten {
+    margin: 20px;
+  }
+  
+  .jumbotron {
+    margin: 20px;
+    margin-top: 10px;
+  }
+  
+  .navbar {
+    margin-left: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+    body {
+      position: inherit;
+    }
+    #navbarSupportedContent navbar-collapse {
+      position: relative;
+      display: block;
+    }
+    .jumbotron jumbotron-fluid {
+      position: relative;
+      display: block;
+    }
+    #konten header {
+      float: inherit;
+      margin: 0 auto 25px;
+      width: 101%;
+      padding: 5%;
+    }
+    .footer {
+      position: relative;
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    body {
+      position: inherit;
+    }
+    #navbarSupportedContent navbar-collapse {
+      position: relative;
+      display: block;
+    }
+    .jumbotron jumbotron-fluid {
+      position: relative;
+      display: block;
+    }
+    #konten header {
+      float: inherit;
+      margin: 0 auto 25px;
+      width: 101%;
+      padding: 5%;
+    }
+    .footer {
+      position: relative;
+      display: block;
+    }
+  }
